@@ -1,0 +1,29 @@
+html{
+    width:100%;
+}
+button{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+button:active{
+    position: relative;
+    bottom: 5px;
+}
+
+#cat{
+    position: absolute;
+    right:50px;
+    width: 200px;
+}
+p{
+    z-index: 999;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+      display: none;
+    }
+  }
